@@ -24,7 +24,7 @@ a:hover {
     height: 90px;
     display: flex;
     align-items: center;
-    background: url(./картинки/bg.png) no-repeat black;
+    background: url(../картинки/bg.png) no-repeat black;
 }
 
 .header__logo {
