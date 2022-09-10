@@ -3,7 +3,7 @@
 .hero {
     width: 1440px;
     height: 820px;
-    background: url(/картинки/bg.png) no-repeat center black;
+    background: url(./картинки/bg.png) no-repeat center black;
     margin-top: -90px;
 }
 
