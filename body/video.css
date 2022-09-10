@@ -35,7 +35,7 @@
     width: 1400px;
     height: 705px;
     margin: auto;
-    background: url(/картинки/video-player.png) no-repeat center black;
+    background: url(../картинки/video-player.png) no-repeat center black;
     display: flex;
 }
 
