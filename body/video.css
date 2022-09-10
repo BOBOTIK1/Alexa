@@ -1,0 +1,59 @@
+.video {
+    width: 1440px;
+    height: 945px;
+    margin: auto;
+}
+
+.video__title {
+    height: 80px;
+    padding: 100px 0px 60px 0px;
+    text-align: center;
+}
+
+.video__text {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    line-height: 80px;
+    color: #BDAE82;
+    margin: 0px;
+    cursor: default;
+}
+
+.video__text::before,
+.video__text::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #BDAE82;
+    height: 2px;
+    width: 273px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.video__item {
+    width: 1400px;
+    height: 705px;
+    margin: auto;
+    background: url(/картинки/video-player.png) no-repeat center black;
+    display: flex;
+}
+
+.video__play {
+    width: 130px;
+    height: 130px;
+    margin: auto;
+}
+
+.video__play:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+    transition: 0, 5s;
+}
+
+@media (max-width: 768px) {
+
+    .video__text::before,
+    .video__text::after {
+        width: 117px;
+    }
+}

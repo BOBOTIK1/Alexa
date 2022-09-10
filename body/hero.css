@@ -1,0 +1,48 @@
+.main {}
+
+.hero {
+    width: 1440px;
+    height: 820px;
+    background: url(/картинки/bg.png) no-repeat center black;
+    margin-top: -90px;
+}
+
+.hero__column {
+    width: 500px;
+    height: 330px;
+    padding: 200px 860px 290px 80px;
+}
+
+.hero__title {
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 120px;
+    margin: 0px;
+}
+
+.hero__text {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    width: 420px;
+    height: 120px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0px;
+}
+
+.hero__button {
+    font-family: 'Inter', sans-serif;
+    width: 220px;
+    height: 55px;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: #BDAE82;
+    cursor: pointer;
+    margin-top: 25px;
+    border: none;
+}
+
+.hero__button:hover {
+    color: #ffffff;
+}

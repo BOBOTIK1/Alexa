@@ -1,0 +1,95 @@
+html {
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 1440px;
+    margin: auto;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #BDAE82;
+}
+
+.header {
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background: url(/картинки/bg.png) no-repeat black;
+}
+
+.header__logo {
+    width: 50px;
+    height: 40px;
+    margin: 20px 780px 20px 20px;
+    cursor: pointer;
+}
+
+.header__logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+    transition: 0, 5s;
+}
+
+.header__nav {
+    width: 500px;
+    height: 50px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 20px 0px;
+}
+
+.nav__link {
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.header__lng {
+    display: flex;
+    width: 70px;
+    height: 50px;
+    margin: 20px 20px 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lng__link {
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+    cursor: default;
+}
+
+.lng__link-button {
+    width: 25px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0px;
+
+}
+
+.lng__link-button:hover {
+    color: #BDAE82;
+}
+
+.lng__link-button:focus {
+    color: #BDAE82;
+    transition: 10s;
+}
